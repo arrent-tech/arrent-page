@@ -178,7 +178,18 @@ p.lead {
 
 /* NAVBAR
 ----------------------*/
-.bg-img {
+.bg-test{
+    padding: 18%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    
+    background-color: rgb(18, 19, 18);
+    width: auto;
+    height: 100%;
+}
+
+/* .bg-img {
     position: absolute;
     left: 0;
     top: 0;
@@ -188,6 +199,7 @@ p.lead {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    padding: 50%;
 }
 
 .bg-img .overlay {
@@ -198,7 +210,8 @@ p.lead {
     bottom: 0;
     opacity: .8;
     background: #1C1D21;
-}
+    padding: 50%;
+} */
 
 .nav-menu {
     padding: 1rem 0;
@@ -280,6 +293,8 @@ header {
     color: #ffffff;
     max-width: 800px;
     margin: 0 auto;
+    text-shadow: 1px 1px #7a767a
+    
 }
 
 .img-holder {
