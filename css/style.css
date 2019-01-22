@@ -75,21 +75,21 @@ h4 {
 h5 {
     font-size: 28px;
     font-weight: 300;
-    color: #FABF22;
+    color: #007F5A;
     margin-bottom: 0.7rem;
 }
 
 p {
-    color: #ece7eb;
+    color: #707070;
 }
 
 p.lead {
-    color: #FABF22;
+    color: #007F5A;
     margin-bottom: 2rem;
 }
 
 .text-primary {
-    color: #FABF22 !important;
+    color: #007F5A !important;
 }
 
 .light-font {
@@ -110,10 +110,10 @@ p.lead {
 
 .btn-primary {
     border-radius: 3px;
-    background-image: -moz-linear-gradient( 122deg, #FABF22 0%, #FFCC0B 100%);
-    background-image: -webkit-linear-gradient( 122deg, #FABF22 0%, #FFCC0B 100%);
-    background-image: -ms-linear-gradient( 122deg, #FABF22 0%, #FFCC0B 100%);
-    background-image: linear-gradient( 122deg, #FABF22 0%, #FFCC0B 100%);
+    background-image: -moz-linear-gradient( 122deg, #007F5A 0%, #007F5A 100%);
+    background-image: -webkit-linear-gradient( 122deg, #007F5A 0%, #007F5A 100%);
+    background-image: -ms-linear-gradient( 122deg, #007F5A 0%, #007F5A 100%);
+    background-image: linear-gradient( 122deg, #007F5A 0%, #007F5A 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
     padding: 0.6rem 2rem;
@@ -126,7 +126,7 @@ p.lead {
 .btn-primary:not([disabled]):not(.disabled).active,
 .btn-primary:not([disabled]):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-image: linear-gradient( 122deg, #FFCF3F 0%, #FFCC0B 100%);
+    background-image: linear-gradient( 122deg, #007F5A 0%, #007F5A 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
     color: #FFF;
 }
@@ -137,7 +137,7 @@ p.lead {
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
     font-size: 14px;
     font-weight: 500;
-    color: #FABF22;
+    color: #007F5A;
     margin: 0.5rem;
     padding: 0.7rem 1.6rem;
     line-height: 1.8;
@@ -221,9 +221,9 @@ p.lead {
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
     background-color: rgb(0, 0, 0);
-    /* background: -moz-linear-gradient(135deg, rgb(0, 0, 0) 0%, rgb(255, 241, 27) 100%);
-    background: -webkit-linear-gradient(135deg, rgb(250, 191, 29) 0%, rgb(255, 241, 27) 100%);
-    background: linear-gradient(135deg, rgb(250, 187, 13) 0%, rgb(255, 241, 27) 100%); */
+    background: -moz-linear-gradient(135deg, #00CC8F 0%, #007F5A 100%);
+    background: -webkit-linear-gradient(135deg, #00CC8F 0%, #007F5A 100%);
+    background: linear-gradient(135deg, #00CC8F 0%, #007F5A 100%);
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -282,9 +282,9 @@ header {
 }
 
 .bg-gradient {
-    background: -moz-linear-gradient(135deg, rgb(250, 191, 34) 0%, rgb(255, 241, 27) 100%);
-    background: -webkit-linear-gradient(135deg, rgb(250, 191, 29) 0%, rgb(255, 241, 27) 100%);
-    background: linear-gradient(135deg, rgb(250, 187, 13) 0%, rgb(255, 241, 27) 100%);
+    background: -moz-linear-gradient(135deg, #00CC8F 0%, #007F5A 100%);
+    background: -webkit-linear-gradient(135deg, #00CC8F 0%, #007F5A 100%);
+    background: linear-gradient(135deg, #00CC8F 0%, #007F5A 100%);
 }
 
 .tagline {
@@ -353,9 +353,9 @@ header {
     position: absolute;
     width: 3px;
     color: rgb(250, 191, 34);
-    background: -moz-linear-gradient(top, rgb(250, 191, 34) 0%, rgb(250, 191, 34) 100%);
-    background: -webkit-linear-gradient(top, rgb(250, 191, 34) 0%, rgb(250, 191, 34) 100%);
-    background: linear-gradient(to bottom, rgb(250, 191, 34) 0%, rgb(250, 191, 34) 100%);
+    background: -moz-linear-gradient(top, #00CC8F 0%, #007F5A 100%);
+    background: -webkit-linear-gradient(top, #00CC8F 0%, #007F5A 100%);
+    background: linear-gradient(to bottom, #00CC8F 0%, #007F5A 100%);
     top: 0;
     bottom: 0;
     left: 0;
@@ -389,7 +389,7 @@ header {
     border-radius: 50%;
     margin-bottom: 1.5rem;
     background-color: #FFF;
-    color: #f5378e;
+    color: #267F65;
     font-size: 48px;
     text-align: center;
     line-height: 80px;
@@ -407,10 +407,10 @@ header {
 }
 
 .ui-steps li:hover .circle-icon {
-    background-image: -moz-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -webkit-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -ms-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
+    background-image: -moz-linear-gradient( 122deg, #267F65 0%, #267F65  100%);
+    background-image: -webkit-linear-gradient( 122deg, #267F65 0%, #267F65 100%);
+    background-image: -ms-linear-gradient( 122deg, #267F65 0%, #267F65 100%);
+    background-image: linear-gradient( 122deg, #267F65 0%, #267F65 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
     color: #FFF;
 }
@@ -420,7 +420,7 @@ header {
 }
 
 .ui-steps li:not(:last-child) {
-    border-bottom: 1px solid #f8e3f0;
+    border-bottom: 1px solid #e3f8e9;
 }
 
 .perspective-phone {
@@ -470,15 +470,15 @@ header {
     padding: 1rem 1rem;
     border-color: #faf6fb #faf6fb #FFF;
     font-size: 19px;
-    color: #b5a4c8;
+    color: #a4c8b9;
     background: #f5eff7;
 }
 
 .nav-tabs .nav-link.active {
     background: #FFF;
     border-top-width: 3px;
-    border-color: #ce75b4 #faf6fb #FFF;
-    color: #633991;
+    border-color: #267F65 #faf6fb #FFF;
+    color: #267F65;
 }
 
 
@@ -640,7 +640,7 @@ header {
 .call-to-action .tagline {
     font-size: 16px;
     font-weight: 300;
-    color: #ffb8f6;
+    color: #BEFFEC;
     max-width: 650px;
     margin: 0 auto;
 }
@@ -668,13 +668,13 @@ header {
     line-height: 50px;
     margin: 0 0.3rem;
     border-radius: 5px;
-    color: #f4c9e2;
+    color: #BEFFEC;
     transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
     text-decoration: none;
-    color: #e38cb7;
+    color: #00FFB3;
 }
 
 @media (max-width:991px) {
