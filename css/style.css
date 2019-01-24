@@ -178,15 +178,45 @@ p.lead {
 
 /* NAVBAR
 ----------------------*/
-.bg-test{
-    padding: 18%;
-    background-size: 100%;
+.main-header {
+    padding: 18% 0;
+    background-image: url(../images/main-header.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    
-    
-    background-color: rgb(18, 19, 18);
     width: auto;
+    max-height: 100%;
+}
+
+.main-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
     height: 100%;
+}
+
+.main-header__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 60%;
+    text-align: left;
+}
+
+.main-header__title h1 {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .main-header {
+        height: 100vh;
+        background-image: url(../images/main-header_mobile.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+    .main-header__title {
+        max-width: 90%;
+        text-align: left;
+    }
 }
 
 /* .bg-img {
@@ -291,10 +321,6 @@ header {
     font-size: 23px;
     font-weight: 300;
     color: #ffffff;
-    max-width: 800px;
-    margin: 0 auto;
-    text-shadow: 1px 1px #7a767a
-    
 }
 
 .img-holder {
