@@ -296,7 +296,10 @@ p.lead {
 
 /* HERO
 ----------------------*/
-
+.img-logo{
+    width: auto;
+    height: 30px;
+}
 
 header {
     padding: 100px 0 0;
