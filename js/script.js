@@ -109,4 +109,21 @@ $(function() {
         });
     }
 
+
+
+    /*-----------------------------------
+     * SUBSCRIPTION
+     *-----------------------------------*/
+    $('#subscribeForm').click(function (e) {
+        e.preventDefault();
+
+        var linkForm = 'https://docs.google.com/forms/d/e/1FAIpQLSd_WluhgFCas6eLMCTdKenpMFcfEKQqGvZtVbIlWW3KCQGbGA/formResponse';
+
+        $.post(linkForm, {'entry.114216146' : $('[name="entry.114216146"]').val()}).done(function () {
+            $('[name="entry.114216146"]').val('');
+            $('#infoEmail').html('E-mail Cadastrado com sucesso. Obrigado!');
+        });
+    })
+
+
 }); /* End Fn */
