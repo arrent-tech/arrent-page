@@ -114,12 +114,16 @@ $(function() {
     /*-----------------------------------
      * SUBSCRIPTION
      *-----------------------------------*/
-    $('#subscribeForm').click(function (e) {
+    $('#subscribeForm').submit(function (e) {
         e.preventDefault();
 
-        var linkForm = 'https://docs.google.com/forms/d/e/1FAIpQLSd_WluhgFCas6eLMCTdKenpMFcfEKQqGvZtVbIlWW3KCQGbGA/formResponse';
+        var formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLScXFc1f9vC7MSRitMN2KZIrSqXo3nRf2lZ976TzdXNGOaRwFQ/formResponse';
 
-        $.post(linkForm, {'entry.114216146' : $('[name="entry.114216146"]').val()}).done(function () {
+        $.post(formUrl, {
+            'entry.177925557' : $('[name="name"]').val(),
+            'emailAddress' : $('[name="emailAddress"]').val()
+        })
+        .done(function () {
             $('[name="entry.114216146"]').val('');
             $('#infoEmail').html('E-mail Cadastrado com sucesso. Obrigado!');
         });

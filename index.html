@@ -12,6 +12,8 @@
     <!-- Font -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -47,6 +49,13 @@
             </div>
         </div>
     </div>
+
+    <a class="btn btn-primary btn-fab"
+       href="https://wa.me/555199505073?text=Ol%C3%A1%21+Conheci+a+Arrent+pelo+site+e+quero+saber+mais%21"
+       target="_blank">
+        Falar pelo WhatsApp
+        <i class="ml-1 fa fa-arrow-right"></i>
+    </a>
 
    
     <header class="main-header" id="home">
@@ -469,17 +478,21 @@
                 <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
                 <h2 class="font-weight-bold">Quer saber mais?</h2>
                 <p class="tagline">Entre em contato com o nosso time, teremos prazer em te atender!</p>
-                <form id="subscribeForm" class="my-4 d-flex justify-content-around text-left">
-                    <div class="form-group">
-                        <label for="subscribeNameInput">Nome</label>
-                        <input  class="form-control" id="subscribeNameInput">
+                <form id="subscribeForm">
+                    <div class="my-4 row justify-content-center">
+                        <div class="form-group col-12 col-md-4">
+                            <label for="subscribeNameInput">Nome</label>
+                            <input name="name" class="form-control" id="subscribeNameInput" required>
+                        </div>
+                        <div class="form-group col-12 col-md-4">
+                            <label for="subscribeEmailInput">Email</label>
+                            <input name="emailAddress" type="email" class="form-control" id="subscribeEmailInput" required>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="subscribeEmailInput">Email</label>
-                        <input type="email" class="form-control" id="subscribeEmailInput">
-                    </div>
+                    <button type="submit" class="btn btn-light">
+                        Enviar
+                    </button>
                 </form>
-                <p class="text-primary"><small><i>*Works on iOS 10.0.5+, Android Kitkat and above. </i></small></p>
             </div>
         </div>
 
