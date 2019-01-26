@@ -1,13 +1,5 @@
 <!doctype html>
 <html lang="en">
-<!--
-
-Page    : index / MobApp
-Version : 1.0
-Author  : Colorlib
-URI     : https://colorlib.com
-
- -->
 
 <head>
     <title>Arrent: Encontre e anuncie terras para arrendamento.</title>
@@ -20,6 +12,8 @@ URI     : https://colorlib.com
     <!-- Font -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -34,7 +28,6 @@ URI     : https://colorlib.com
 <body data-spy="scroll" data-target="#navbar" data-offset="30">
 
     <!-- Nav Menu -->
-
     <div class="nav-menu fixed-top">
         <div class="container">
             <div class="row">
@@ -43,13 +36,12 @@ URI     : https://colorlib.com
                         <a class="navbar-brand" href="index.html"><img src="images/arrent_vector2.png" class="img-logo" alt="logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item"> <a class="nav-link active" href="#home">INICIO <span class="sr-only">(current)</span></a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#features">FUNCIONALIDADES</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#gallery">GALERIA</a> </li>
+                                <li class="nav-item"> <a class="nav-link active" href="#home">INÍCIO <span class="sr-only">(current)</span></a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#features">O QUE FAZEMOS?</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#gallery">O APLICATIVO</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#faq">FAQ</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#contact">CONTATO</a> </li>
-                                <li class="nav-item"><a href="#" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Download</a></li>
-                                
+                                <li class="nav-item"><a href="#" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Baixe Já</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -58,13 +50,22 @@ URI     : https://colorlib.com
         </div>
     </div>
 
-   
+    <a class="btn btn-primary btn-fab"
+       href="https://wa.me/555199505073?text=Ol%C3%A1%21+Conheci+a+Arrent+pelo+site+e+quero+saber+mais%21"
+       target="_blank">
+        Falar pelo WhatsApp
+        <i class="ml-1 fa fa-arrow-right"></i>
+    </a>
+
+
     <header class="main-header" id="home">
         <div class="main-header__wrapper container">
             <div class="main-header__title">
                 <h1>Arrende, plante e cresça!</h1>
                 <p class="tagline">
-                    Encontre terras para arrendamento em alguns cliques. <br> Anuncie suas terras em poucos minutos.
+                    Encontre a terra ideal para arrendamento em alguns cliques.
+                    <br>
+                    Anuncie suas terras em poucos minutos.
                 </p>
             </div>
         </div>
@@ -76,8 +77,8 @@ URI     : https://colorlib.com
         <div class="container">
 
             <div class="section-title">
-                <small>DESTAQUES</small>
-                <h3>Principais funcionalidades</h3>
+                <small>O QUE FAZEMOS?</small>
+                <h3></h3>
             </div>
 
 
@@ -460,17 +461,38 @@ URI     : https://colorlib.com
 
     <div class="section bg-gradient">
         <div class="container">
+            <!--<div class="call-to-action">-->
+
+                <!--<div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>-->
+                <!--<h2>Download Anywhere</h2>-->
+                <!--<p class="tagline">Available for all major mobile and desktop platforms. Rapidiously visualize optimal ROI rather than enterprise-wide methods of empowerment. </p>-->
+                <!--<div class="my-4">-->
+
+                    <!--<a href="#" class="btn btn-light"><img src="images/appleicon.png" alt="icon"> App Store</a>-->
+                    <!--<a href="#" class="btn btn-light"><img src="images/playicon.png" alt="icon"> Google play</a>-->
+                <!--</div>-->
+                <!--<p class="text-primary"><small><i>*Works on iOS 10.0.5+, Android Kitkat and above. </i></small></p>-->
+            <!--</div>-->
+
             <div class="call-to-action">
-
                 <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
-                <h2>Download Anywhere</h2>
-                <p class="tagline">Available for all major mobile and desktop platforms. Rapidiously visualize optimal ROI rather than enterprise-wide methods of empowerment. </p>
-                <div class="my-4">
-
-                    <a href="#" class="btn btn-light"><img src="images/appleicon.png" alt="icon"> App Store</a>
-                    <a href="#" class="btn btn-light"><img src="images/playicon.png" alt="icon"> Google play</a>
-                </div>
-                <p class="text-primary"><small><i>*Works on iOS 10.0.5+, Android Kitkat and above. </i></small></p>
+                <h2 class="font-weight-bold">Quer saber mais?</h2>
+                <p class="tagline">Entre em contato com o nosso time, teremos prazer em te atender!</p>
+                <form id="subscribeForm">
+                    <div class="my-4 row justify-content-center">
+                        <div class="form-group col-12 col-md-4">
+                            <label for="subscribeNameInput">Nome</label>
+                            <input name="name" class="form-control" id="subscribeNameInput" required>
+                        </div>
+                        <div class="form-group col-12 col-md-4">
+                            <label for="subscribeEmailInput">Email</label>
+                            <input name="emailAddress" type="email" class="form-control" id="subscribeEmailInput" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-light">
+                        Enviar
+                    </button>
+                </form>
             </div>
         </div>
 
