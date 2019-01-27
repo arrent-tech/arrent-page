@@ -461,6 +461,12 @@ header {
     transition: all 0.3s ease;
 }
 
+@media (max-width: 768px) {
+    .box-icon {
+        margin: 25px auto;
+    }
+}
+
 @media (max-width:992px) {
     .circle-icon {
         width: 70px;
