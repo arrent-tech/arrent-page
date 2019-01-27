@@ -336,6 +336,11 @@ p.lead {
     height: 30px;
 }
 
+.img-fluid{
+    width: auto;
+    height: 500px;
+}
+
 header {
     padding: 100px 0 0;
     text-align: center;
