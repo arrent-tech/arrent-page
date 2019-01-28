@@ -503,6 +503,11 @@ header {
     z-index: -1;
 }
 
+.perspective-phone img {
+    max-height: 500px;
+    max-width: 100%;
+}
+
 @media (min-width:992px) {
     .perspective-phone {
         margin-top: -150px;
