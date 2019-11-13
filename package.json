@@ -1,0 +1,46 @@
+{
+  "name": "arrent-page",
+  "version": "1.0.0",
+  "description": "Arrent page ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arrent-tech/arrent-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "browsers": [
+              "last 2 versions",
+              "IE >= 11"
+            ]
+          }
+        }
+      ]
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/arrent-tech/arrent-page/issues"
+  },
+  "homepage": "https://github.com/arrent-tech/arrent-page#readme"
+}
