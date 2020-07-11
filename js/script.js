@@ -117,16 +117,17 @@ $(function() {
     $('#subscribeForm').submit(function (e) {
         e.preventDefault();
 
-        var formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLScXFc1f9vC7MSRitMN2KZIrSqXo3nRf2lZ976TzdXNGOaRwFQ/formResponse';
+        var formUrl = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSdRPeeA9koHItRBaXwXFL7hoQcWDiP6WyLq7taSjJWWa5Gydw/formResponse';
 
         $.post(formUrl, {
-            'entry.177925557' : $('[name="name"]').val(),
-            'emailAddress' : $('[name="emailAddress"]').val()
+            'entry.1929906315' : $('[name="name"]').val(),
+            'entry.1737766860' : $('[name="emailAddress"]').val()
         })
         .done(function () {
-            $('[name="entry.114216146"]').val('');
-            $('#infoEmail').html('E-mail Cadastrado com sucesso. Obrigado!');
+            $('#subscribeForm').html('E-mail Cadastrado com sucesso. Obrigado!');
         });
+        $('#subscribeForm').html('E-mail Cadastrado com sucesso. Obrigado!');
+
     })
 
 
